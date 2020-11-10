@@ -1,3 +1,6 @@
 <!--pages/index/index.wxml-->
 <text>{{msg}}</text>
-<view>tag1</view>
+<view wx:if="{{age<18}}">未成年</view>
+<view wx:elif="{{age<48}}">成年</view>
+<view wx:elif="{{age<68}}">中老年</view>
+<view wx:else="{{age<88}}">老年</view>
