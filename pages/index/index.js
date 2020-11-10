@@ -5,7 +5,10 @@ Page({
      * 页面的初始数据
      */
     data: {
-        msg:"首页"
+        msg:"首页",
+        arr:["zhangsan","lisi","wangwu"],
+        obj:{name:"zhang",age:"19",gender:"man"},
+        goods:[{id:1,name:"xiaomi"},{id:2,name:'huawei'}]
     },
 
     /**

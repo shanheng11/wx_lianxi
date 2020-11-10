@@ -1,2 +1,7 @@
 <!--pages/index/index.wxml-->
 <text>{{msg}}</text>
+<view wx:for="{{arr}}" wx:key="*this">{{item}}</view>
+<view>--------------</view>
+<view wx:for="{{obj}}" wx:key="*this">{{item}}</view>
+<view>--------------</view>
+<view wx:for="{{goods}}" wx:key="id">{{item.name}}</view>
