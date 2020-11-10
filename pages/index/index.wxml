@@ -1,3 +1,15 @@
 <!--pages/index/index.wxml-->
 <text>{{msg}}</text>
-<view>tag1</view>
+<template name="default">
+    <view>我的名字是{{name}}</view>
+    <view>我的年龄是{{age}}</view>
+    <view>我是默认主题</view>
+</template>
+<template name="temp1">
+    <view>我的名字是{{name}}</view>
+    <view>我的年龄是{{age}}</view>
+    <view class="red">我是红色</view>
+</template>
+
+<button bindtap="_fn">anniu</button>
+<template is='{{style}}' data="{{...user}}"></template>

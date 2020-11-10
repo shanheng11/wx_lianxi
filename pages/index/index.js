@@ -5,7 +5,15 @@ Page({
      * 页面的初始数据
      */
     data: {
-        msg:"首页"
+        msg:"首页",
+        style:'temp',
+        user:{name:'张三',age:80},
+        style:"default"
+    },
+    _fn(){
+        this.setData({
+            style:"temp1"
+        })
     },
 
     /**
