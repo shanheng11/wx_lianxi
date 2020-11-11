@@ -1,2 +1,63 @@
 <!--pages/index/index.wxml-->
-<text>{{msg}}</text>
+<view class="contain">
+    <scroll-view  scroll-y class="left">
+        <view data-cate="cate1" bindtap="_scoll">首页1</view>
+        <view data-cate="cate2" bindtap="_scoll">首页2</view>
+        <view data-cate="cate3" bindtap="_scoll">首页3</view>
+        <view data-cate="cate4" bindtap="_scoll">首页4</view>
+        <view data-cate="cate5" bindtap="_scoll">首页5</view>
+        <view data-cate="cate6" bindtap="_scoll">首页6</view>
+        <view data-cate="cate7" bindtap="_scoll">首页7</view>
+        <view data-cate="cate8" bindtap="_scoll">首页8</view>
+    </scroll-view>
+    <scroll-view scroll-into-view="{{cate}}" scroll-y="{{true}}" class="right">
+        <view id="cate1" class="father">
+            <text>分类1</text>
+            <text>分类1</text>
+            <text>分类1</text>
+            <text>分类1</text>
+            <text>分类1</text>
+            <text>分类1</text>
+        </view>
+        <view id="cate2" class="father">
+            <text>分类2</text>
+            <text>分类2</text>
+            <text>分类2</text>
+            <text>分类2</text>
+            <text>分类2</text>
+            <text>分类2</text>
+        </view>
+        <view id="cate3" class="father">
+            <text>分类3</text>
+            <text>分类3</text>
+            <text>分类3</text>
+            <text>分类3</text>
+            <text>分类3</text>
+            <text>分类3</text>
+        </view>
+        <view id="cate4" class="father">
+            <text>分类4</text>
+            <text>分类4</text>
+            <text>分类4</text>
+            <text>分类4</text>
+            <text>分类4</text>
+            <text>分类4</text>
+        </view>
+        <view id="cate5" class="father">
+            <text>分类5</text>
+            <text>分类5</text>
+            <text>分类5</text>
+            <text>分类5</text>
+            <text>分类5</text>
+            <text>分类5</text>
+        </view>
+        <view id="cate6" class="father">
+            <text>分类6</text>
+            <text>分类6</text>
+            <text>分类6</text>
+            <text>分类6</text>
+            <text>分类6</text>
+            <text>分类6</text>
+        </view>
+    </scroll-view>
+</view>

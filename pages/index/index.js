@@ -5,9 +5,17 @@ Page({
      * 页面的初始数据
      */
     data: {
-        msg:"首页"
+        msg:"首页",
+        cate:'cate3'
     },
-
+    _scoll(e){
+        console.log(e);
+        
+       this.setData({
+           cate:e.currentTarget.dataset.cate
+       })
+        
+    },
     /**
      * 生命周期函数--监听页面加载
      */

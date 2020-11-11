@@ -1,1 +1,31 @@
 /* pages/index/index.wxss */
+.contain{
+    display: flex;
+}
+.left{
+    width: 300rpx;
+    height: 700rpx;
+    /* background: #ccc; */
+}
+.left view{
+    width: 140rpx;
+    height: 140rpx;
+    background: rgb(83, 72, 72);
+    margin-bottom: 10rpx;
+}
+.right{
+    width: 400rpx;
+    height: 700rpx;
+}
+.father{
+    width: 500rpx;
+    height: 200rpx;
+    margin-bottom: 40rpx;
+}
+.father text{
+    display: inline-block;
+    background: #ccc;
+    width: 140rpx;
+    height: 80rpx;
+    padding: 10rpx;
+}
